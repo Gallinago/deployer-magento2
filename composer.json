@@ -1,0 +1,15 @@
+{
+    "name": "gallinago/deployer-magento2",
+    "description": "Magento2 deployer config",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "deployer/deployer": "^6.0",
+        "deployer/recipes": "^6.0"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
