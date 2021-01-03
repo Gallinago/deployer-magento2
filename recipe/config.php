@@ -61,7 +61,9 @@ set('build_exclusions', [
     './crossbow.yaml',
     './fe',
     './node_modules',
-    './app/design/frontend/*/*/node_modules'
+    './app/design/frontend/*/*/node_modules',
+    'composer-cache',
+    'npm-cache'
 ]);
 
 set('local_bin/php', function () {
